@@ -16,7 +16,7 @@ public class ConditionRun {
 //		ex.method3();
 //		ex.displayMenu();
 		
-		ex.practice();
+		//ex.practice();
 		
 		
 		
