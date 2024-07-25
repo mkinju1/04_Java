@@ -9,15 +9,12 @@ public class Child extends Parent{
 		super(); // 안쓰면 컴파일러 추가해줌!!!
 	}
 
-	
-	//자식 객체 생성 시
-	// 자식 + 부모 필드 한 번에 초기화
+	// 자식 객체 생성 시
+	// 자식 + 부모 필드 한번에 초기화
 	public Child(String lastName, int money, String car) {
 		super(lastName, money);
 		this.car = car;
 	}
-	
-	
 	
 	public String getCar() {
 		return car;
@@ -25,15 +22,17 @@ public class Child extends Parent{
 
 	public void setCar(String car) {
 		this.car = car;
-	}	
+	}
 	
 	
-	
-	
-	
-	
-	
-	
+	// Parent의 toString() 오버라이딩 하기
+	@Override
+	public String toString() {
+		return "Child : " + getLastName() + " / "
+						  + getMoney()    + " / "
+						  + car;
+					
+	}
 	
 	
 	
