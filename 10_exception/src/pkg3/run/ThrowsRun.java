@@ -25,7 +25,7 @@ public class ThrowsRun {
 //		System.out.println("와아아아아");
 		
 		
-		service.test5();
+//		service.test5();
 		
 		
 		
