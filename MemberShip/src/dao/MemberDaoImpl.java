@@ -67,6 +67,7 @@ public class MemberDaoImpl implements MemberDao{
 		return memberList;
 	}
 	
+	
 	// 회원 추가
 	@Override
 	public boolean addMember(Member member) throws IOException {
